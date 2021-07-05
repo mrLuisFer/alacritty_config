@@ -2,7 +2,7 @@
 
 ## About ⚡
 
-This is my basic configuration of my Alacritty terminal.
+This is my basic configuration of my **Alacritty terminal**.
 
 Since the file can grow, or also that I like to test things,
 I want to have a backup version which if it works correctly
@@ -27,3 +27,9 @@ The same way just clone the repository don't download the **.zip** file and copy
 ```
 %APPDATA%\Roaming\alacritty\alacritty.yml
 ```
+
+## Nerd Font
+
+To have the nerd font that comes by default you can visit the official page and download the **CaskaydiaCove** Nerd Font or one that you like
+
+[nerdfonts.com](https://www.nerdfonts.com/font-downloads)
