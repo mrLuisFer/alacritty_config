@@ -75,7 +75,7 @@ window:
   #startup_mode: Windowed
 
   # Window title
-  #title: Alacritty
+  title: Alacritty
 
   # Allow terminal applications to change Alacritty's window title.
   dynamic_title: true
@@ -385,7 +385,7 @@ cursor:
     #   - Off: Disable blinking by default
     #   - On: Enable blinking by default
     #   - Always: Force the cursor to always blink
-    #blinking: Off
+    blinking: Off
 
   # Vi mode cursor style
   #
