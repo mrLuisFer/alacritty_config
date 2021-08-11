@@ -150,7 +150,7 @@ font:
 #style: Bold Italic
 
 # Point size
-#size: 11.0
+  size: 9.0
 
 # Offset is the extra space around each character. `offset.y` can be thought
 # of as modifying the line spacing, and `offset.x` as modifying the letter
@@ -432,14 +432,14 @@ working_directory: None
 # Send ESC (\x1b) before characters when alt is pressed.
 #alt_send_esc: true
 
-#mouse:
+mouse:
 # Click settings
 #
 # The `double_click` and `triple_click` settings control the time
 # alacritty should wait for accepting multiple clicks as one double
 # or triple click.
-#double_click: { threshold: 300 }
-#triple_click: { threshold: 300 }
+  double_click: { threshold: 300 }
+  triple_click: { threshold: 300 }
 
 # If this is `true`, the cursor is temporarily hidden when typing.
 #hide_when_typing: false
