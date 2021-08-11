@@ -1,11 +1,7 @@
-<head>
-	<link rel="stylesheet" href="./doc/styles.css">
-</head>
-
 # 📦 Just my Alacrity.yml config
 
-<img src="./doc/alacritty-term-icon.png" alt="Alacritty" className="img" />
-
+<img src="./doc/alacritty-term-icon.png" alt="Alacritty" width="200" />
+	
 ## ⚡ About
 
 This is my basic configuration of my **Alacritty terminal**.
