@@ -1,6 +1,10 @@
+<head>
+	<link rel="stylesheet" href="./doc/styles.css">
+</head>
+
 # 📦 Just my Alacrity.yml config
 
-<img src="./doc/alacritty-term-icon.png" alt="Alacritty" />
+<img src="./doc/alacritty-term-icon.png" alt="Alacritty" className="img" />
 
 ## ⚡ About
 
