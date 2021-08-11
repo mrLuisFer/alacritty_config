@@ -1,5 +1,7 @@
 # 📦 Just my Alacrity.yml config
 
+<img src="./doc/alacritty-term-icon.png" alt="Alacritty" />
+
 ## ⚡ About
 
 This is my basic configuration of my **Alacritty terminal**.
