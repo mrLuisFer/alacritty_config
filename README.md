@@ -7,7 +7,11 @@ This is my basic configuration of my **Alacritty terminal**.
 Since the file can grow, or also that I like to test things,
 I want to have a backup version which if it works correctly
 
-## Usage
+# Usage
+
+To clone the file inside an already created folder you can execute the following command
+
+git clone -b main https://github.com/mrLuisFer/alacritty_config.git .
 
 ## Linux 🐧
 
