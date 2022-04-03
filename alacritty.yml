@@ -1,26 +1,4 @@
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
-
-# Import additional configuration files
-#
-# Imports are loaded in order, skipping all missing files, with the importing
-# file being loaded last. If a field is already present in a previous import, it
-# will be replaced.
-#
-# All imports must either be absolute paths starting with `/`, or paths relative
-# to the user's home directory starting with `~/`.
-#import:
-#  - /path/to/alacritty.yml
-
-# Any items in the `env` entry below will be added as
-# environment variables. Some entries may override variables
-# set by alacritty itself.
-# env:
-# TERM variable
-#
-# This value is used to set the `$TERM` environment variable for
-# each instance of Alacritty. If it is not present, alacritty will
-# check the local terminfo database and use `alacritty` if it is
-# available, otherwise `xterm-256color` is used.
 TERM: alacritty
 
 window:
@@ -61,7 +39,7 @@ window:
   # Values for `decorations` (macOS only):
   #     - transparent: Title bar, transparent background and title bar buttons
   #     - buttonless: Title bar, transparent background and no title bar buttons
-  #decorations: full
+  decorations: none
 
   # Startup Mode (changes require restart)
   #
@@ -315,7 +293,7 @@ colors:
 # Bell
 #
 # The bell is rung every time the BEL control character is received.
-bell:
+#bell:
   # Visual Bell Animation
   #
   # Animation effect for flashing the screen when the visual bell is rung.
@@ -331,14 +309,14 @@ bell:
   #   - EaseOutExpo
   #   - EaseOutCirc
   #   - Linear
-  animation: EaseOutExpo
+  # animation: EaseOutExpo
 
   # Duration of the visual bell flash in milliseconds. A `duration` of `0` will
   # disable the visual bell animation.
-  duration: 100
+  # duration: 0
 
   # Visual bell animation color.
-  color: "#ffffff"
+  # color: "#ffffff"
 
 # Bell Command
 #
@@ -442,7 +420,7 @@ mouse:
   triple_click: { threshold: 300 }
 
 # If this is `true`, the cursor is temporarily hidden when typing.
-#hide_when_typing: false
+  hide_when_typing: true
 
 # Regex hints
 #
