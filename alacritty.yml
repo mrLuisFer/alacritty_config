@@ -28,7 +28,7 @@ window:
     y: 10
 
   # Spread additional padding evenly around the terminal content.
-  dynamic_padding: true 
+  dynamic_padding: true
 
   # Window decorations
   #
@@ -39,7 +39,7 @@ window:
   # Values for `decorations` (macOS only):
   #     - transparent: Title bar, transparent background and title bar buttons
   #     - buttonless: Title bar, transparent background and no title bar buttons
-  decorations: Full 
+  decorations: Full
 
   # Startup Mode (changes require restart)
   #
@@ -89,7 +89,7 @@ font:
 #   - (macOS) Menlo
 #   - (Linux/BSD) monospace
 #   - (Windows) Consolas
-    family: JetBrainsMono Nerd Font 
+    family: JetBrainsMono Nerd Font
 
 # The `style` can be specified to pick a specific face.
   style: Regular
@@ -128,7 +128,7 @@ font:
 #style: Bold Italic
 
 # Point size
-  size: 13.0
+  size: 15.0
 
 # Offset is the extra space around each character. `offset.y` can be thought
 # of as modifying the line spacing, and `offset.x` as modifying the letter
@@ -826,4 +826,3 @@ mouse:
 
 # Print all received window events.
 #print_events: false
-
