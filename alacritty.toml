@@ -1,0 +1,39 @@
+# This is the new configuration file, because from the official documentation, it recommends to use a .toml file
+
+# Alacritty Configuration
+
+import = [
+  "~/AppData/Roaming/alacritty/themes/catppuccin_mocha.toml"
+]
+
+# import = [
+#  "~/.config/alacritty/themes/catppuccin_mocha.toml"
+# ]
+
+[font]
+size = 12.0
+
+[font.bold]
+family = "JetBrains Mono"
+style = "Bold"
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Regular"
+
+
+[[hints.enabled]]
+regex = "[^ ]+\\.rs:\\d+:\\d+"
+command = { program = "code", args = [ "--goto" ] }
+mouse = { enabled = true }
+
+[window]
+padding = { x = 0, y = 5 }
+blur = true # Works on MacOs and KDE Wayland
+# decorations = "Transparent" # MacOs Only
+startup_mode = "Maximized"
+dynamic_title = false
+
+[mouse]
+hide_when_typing = true
+
