@@ -24,13 +24,13 @@ You can read a little more about **Alacritty** in the **[official repository](ht
 Alacritty doesn't create the config file for you, but it looks for one in the following locations:
 
 ```bash
-$XDG_CONFIG_HOME/alacritty/alacritty.yml
+$XDG_CONFIG_HOME/alacritty/alacritty.toml
 
-$XDG_CONFIG_HOME/alacritty.yml
+$XDG_CONFIG_HOME/alacritty.toml
 
-$HOME/.config/alacritty/alacritty.yml
+$HOME/.config/alacritty/alacritty.toml
 
-$HOME/.alacritty.yml
+$HOME/.alacritty.toml
 ```
 
 ### 🐧 Linux
