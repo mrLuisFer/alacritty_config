@@ -1,4 +1,4 @@
-# 📦 Just my Alacrity.yml config
+# 📦 Just my Alacrity.toml config
 
 <img src="./doc/alacritty-term-icon.png" alt="Alacritty" width="200" />
 	
@@ -50,7 +50,9 @@ The same way just clone the repository don't download the **.zip** file and copy
 On **Windows**, the config file should be located at:
 
 ```bash
-%APPDATA%\alacritty\alacritty.yml
+%APPDATA%\alacritty\alacritty.toml
+# or
+~\AppData\Roaming\alacritty\alacritty.toml
 ```
 
 ### 👨‍💻 Nerd Font
